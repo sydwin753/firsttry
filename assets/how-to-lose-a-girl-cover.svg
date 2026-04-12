@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#FAFBFF"/>
+  <rect x="48" y="48" width="1104" height="804" rx="34" fill="#FFFFFF"/>
+  <rect x="792" y="120" width="224" height="224" rx="112" fill="#FFC1DF"/>
+  <rect x="184" y="476" width="832" height="18" rx="9" fill="#141720"/>
+  <path d="M260 476C260 406.412 316.412 350 386 350H485C554.588 350 611 406.412 611 476H260Z" fill="#F29D5F"/>
+  <path d="M619 476C619 406.412 675.412 350 745 350H844C913.588 350 970 406.412 970 476H619Z" fill="#8F7CFF"/>
+  <circle cx="423" cy="428" r="22" fill="#FFFFFF" fill-opacity="0.88"/>
+  <circle cx="680" cy="408" r="24" fill="#FFFFFF" fill-opacity="0.88"/>
+  <circle cx="803" cy="436" r="18" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="112" y="150" fill="#141720" font-family="Vidaloka, serif" font-size="78">How To Lose A Girl</text>
+  <text x="112" y="226" fill="#141720" font-family="Vidaloka, serif" font-size="78">in One Crawfish Boil</text>
+  <text x="116" y="777" fill="#566078" font-family="Manrope, sans-serif" font-size="24" letter-spacing="5">MORNING BREW  /  FOOD PIECE</text>
+</svg>

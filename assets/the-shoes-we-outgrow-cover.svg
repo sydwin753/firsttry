@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#FBFAFF"/>
+  <rect x="48" y="48" width="1104" height="804" rx="34" fill="#FFFFFF"/>
+  <circle cx="879" cy="185" r="111" fill="#DDE5FF"/>
+  <circle cx="879" cy="185" r="43" fill="#8F7CFF"/>
+  <path d="M183 620C183 620 282 521 389 521C460 521 522 573 593 573C708 573 781 421 902 421C955 421 997 441 997 441" stroke="#141720" stroke-width="4"/>
+  <path d="M214 664C214 664 313 585 403 585C474 585 530 625 603 625C719 625 788 489 899 489C947 489 987 504 987 504" stroke="#4F67F2" stroke-width="3"/>
+  <path d="M290 350C290 307.49 324.49 273 367 273H514V430H367C324.49 430 290 395.51 290 353V350Z" fill="#FFC1DF"/>
+  <path d="M683 451C683 408.49 717.49 374 760 374H913V531H760C717.49 531 683 496.51 683 454V451Z" fill="#B7E7DC"/>
+  <text x="112" y="152" fill="#141720" font-family="Vidaloka, serif" font-size="90">The Shoes</text>
+  <text x="112" y="234" fill="#141720" font-family="Vidaloka, serif" font-size="90">We Outgrow</text>
+  <text x="116" y="777" fill="#566078" font-family="Manrope, sans-serif" font-size="24" letter-spacing="5">MORNING BREW  /  ESSAY</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F7FAFF"/>
+  <rect x="48" y="48" width="1104" height="804" rx="34" fill="#FFFFFF"/>
+  <circle cx="922" cy="193" r="92" fill="#E5EAFF"/>
+  <circle cx="922" cy="193" r="36" fill="#141720"/>
+  <path d="M235 645C305 513 435 421 610 421C789 421 884 512 964 645" stroke="#141720" stroke-width="4"/>
+  <path d="M286 645C345 553 452 486 606 486C751 486 842 549 910 645" stroke="#8F7CFF" stroke-width="3"/>
+  <g>
+    <path d="M315 250V395" stroke="#141720" stroke-width="3"/>
+    <circle cx="315" cy="250" r="25" fill="#FFFFFF" stroke="#141720" stroke-width="3"/>
+    <circle cx="259" cy="280" r="25" fill="#FFFFFF" stroke="#141720" stroke-width="3"/>
+    <circle cx="371" cy="280" r="25" fill="#FFFFFF" stroke="#141720" stroke-width="3"/>
+    <circle cx="279" cy="340" r="25" fill="#FFFFFF" stroke="#141720" stroke-width="3"/>
+    <circle cx="351" cy="340" r="25" fill="#FFFFFF" stroke="#141720" stroke-width="3"/>
+    <circle cx="315" cy="308" r="18" fill="#FFC1DF"/>
+  </g>
+  <text x="112" y="152" fill="#141720" font-family="Vidaloka, serif" font-size="88">Where Daisies</text>
+  <text x="112" y="234" fill="#141720" font-family="Vidaloka, serif" font-size="88">Linger</text>
+  <text x="116" y="777" fill="#566078" font-family="Manrope, sans-serif" font-size="24" letter-spacing="5">MORNING BREW  /  SHORT STORY</text>
+</svg>
