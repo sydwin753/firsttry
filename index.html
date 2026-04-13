@@ -22,7 +22,16 @@
         <nav class="nav">
           <a class="brand" href="#top">Morning Brew</a>
           <div class="nav-links">
-            <a class="nav-link" href="#archive">Archive</a>
+            <div class="nav-dropdown">
+              <a class="nav-link" href="#archive">Archive</a>
+              <div class="dropdown-menu">
+                <a href="#featured-work">Featured</a>
+                <a href="#short-stories">Short Stories</a>
+                <a href="#food-pieces">Food Pieces</a>
+                <a href="#poems">Poems</a>
+                <a href="#lifestyle">Lifestyle</a>
+              </div>
+            </div>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#submit">Submit</a>
           </div>
@@ -80,11 +89,11 @@
           </div>
 
           <div class="feature-grid">
-            <article class="feature-story">
+            <article class="feature-story" id="featured-work">
               <img
                 class="feature-image"
-                src="assets/the-shoes-we-outgrow-cover.svg"
-                alt="Abstract editorial cover for The Shoes We Outgrow."
+                src="assets/the-shoes-we-outgrow-cover.png"
+                alt="Photograph of white sneakers for The Shoes We Outgrow."
               />
               <div class="feature-copy">
                 <p class="card-label">Featured Essay</p>
@@ -101,7 +110,7 @@
             </article>
 
             <div class="feature-column">
-              <article class="mini-feature">
+              <article class="mini-feature" id="short-stories">
                 <img
                   class="mini-image"
                   src="assets/where-daisies-linger-cover.svg"
@@ -119,11 +128,11 @@
                 </div>
               </article>
 
-              <article class="mini-feature">
+              <article class="mini-feature" id="food-pieces">
                 <img
                   class="mini-image"
-                  src="assets/how-to-lose-a-girl-cover.svg"
-                  alt="Abstract editorial cover for How To Lose A Girl in One Crawfish Boil."
+                  src="assets/spoon-crawfish-boil.png"
+                  alt="Illustrated food graphic for How To Lose A Girl in One Crawfish Boil."
                 />
                 <div>
                   <p class="card-label">Food Pieces</p>
@@ -139,62 +148,111 @@
                 </div>
               </article>
 
-              <div class="external-list">
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/news/how-to-find-discounted-easter-candy/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >How To Find Discounted Easter Candy</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/reviews/trying-the-food-at-the-miami-open/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Trying The Food At The Miami Open</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/lifestyle/dairy-queens-free-cone-day-2026/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Dairy Queen's Free Cone Day 2026</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/news/big-little-baskets-snacks/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >It's Big Little Baskets Season</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/lifestyle/how-tell-me-lies-uses-food-to-end-everything/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >How Tell Me Lies Uses Food To End Everything</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/lifestyle/meet-ann-michael-maye-the-nfl-wag-with-a-talent-for-baking/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Meet Ann Michael Maye, The NFL WAG With A Talent For Baking</a
-                >
-                <a
-                  class="external-link"
-                  href="https://spoonuniversity.com/news/we-finally-found-gluten-free-cheez-its-after-searching-6-stores-was-it-worth-it/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >We Finally Found Gluten-Free Cheez-Its After Searching 6 Stores</a
-                >
+              <div class="external-grid">
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-easter-candy.png"
+                    alt="Graphic for discounted Easter candy article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/news/how-to-find-discounted-easter-candy/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >How To Find Discounted Easter Candy</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-miami-open.png"
+                    alt="Graphic for Miami Open food article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/reviews/trying-the-food-at-the-miami-open/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Trying The Food At The Miami Open</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-free-cone-day.png"
+                    alt="Graphic for Dairy Queen free cone day article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/lifestyle/dairy-queens-free-cone-day-2026/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Dairy Queen's Free Cone Day 2026</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-big-little-baskets.png"
+                    alt="Graphic for big little baskets article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/news/big-little-baskets-snacks/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >It's Big Little Baskets Season</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-tell-me-lies.png"
+                    alt="Graphic for Tell Me Lies food article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/lifestyle/how-tell-me-lies-uses-food-to-end-everything/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >How Tell Me Lies Uses Food To End Everything</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-ann-maye.png"
+                    alt="Graphic for Ann Michael Maye article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/lifestyle/meet-ann-michael-maye-the-nfl-wag-with-a-talent-for-baking/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Meet Ann Michael Maye, The NFL WAG With A Talent For Baking</a
+                  >
+                </article>
+                <article class="external-card">
+                  <img
+                    class="external-image"
+                    src="assets/spoon-cheez-its.png"
+                    alt="Graphic for gluten-free Cheez-Its article."
+                  />
+                  <a
+                    class="external-link"
+                    href="https://spoonuniversity.com/news/we-finally-found-gluten-free-cheez-its-after-searching-6-stores-was-it-worth-it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >We Finally Found Gluten-Free Cheez-Its After Searching 6 Stores</a
+                  >
+                </article>
               </div>
             </div>
           </div>
 
           <div class="category-columns">
-            <section class="category-section">
+            <section class="category-section" id="poems">
               <img
                 class="section-image"
                 src="assets/poems-cover.svg"
@@ -219,28 +277,33 @@
               </div>
             </section>
 
-            <section class="category-section">
+            <section class="category-section" id="lifestyle">
               <img
                 class="section-image"
-                src="assets/lifestyle-cover.svg"
-                alt="Minimal abstract cover for the lifestyle section."
+                src="assets/somewhere-in-between-cover.png"
+                alt="Sunset beach photograph for Somewhere in Between."
               />
               <p class="card-label">Lifestyle</p>
               <h3>Writing for Hopelessly Yellow and pieces rooted in culture.</h3>
               <div class="lifestyle-list">
                 <a
                   class="lifestyle-link"
-                  href="https://www.hopelesslyellowtulane.com/recently/fun-facts"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Fun Facts</a
+                  href="writing/february-14th.html"
+                  >February 14th</a
                 >
                 <a
                   class="lifestyle-link"
                   href="https://www.hopelesslyellowtulane.com/recently/somewhereinbetween"
                   target="_blank"
                   rel="noreferrer"
-                  >Dancing in Between</a
+                  >Somewhere in Between</a
+                >
+                <a
+                  class="lifestyle-link"
+                  href="https://www.hopelesslyellowtulane.com/recently/fun-facts"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Fun Facts</a
                 >
                 <a
                   class="lifestyle-link"
@@ -265,6 +328,90 @@
                 >
               </div>
             </section>
+          </div>
+
+          <div class="feature-grid secondary-grid">
+            <article class="mini-feature" id="february-fourteenth">
+              <img
+                class="mini-image"
+                src="assets/february-14th-cover.png"
+                alt="Photograph of handmade Valentine's cards for February 14th."
+              />
+              <div>
+                <p class="card-label">Lifestyle</p>
+                <a class="mini-title" href="writing/february-14th.html">February 14th</a>
+                <p>
+                  A reflection on tradition, handwritten affection, and learning
+                  to love big without apology.
+                </p>
+              </div>
+            </article>
+
+            <article class="mini-feature">
+              <img
+                class="mini-image"
+                src="assets/first-in-line-cover.png"
+                alt="Childhood photograph for First in Line."
+              />
+              <div>
+                <p class="card-label">Lifestyle</p>
+                <a
+                  class="mini-title"
+                  href="https://www.hopelesslyellowtulane.com/recently/firstinline"
+                  target="_blank"
+                  rel="noreferrer"
+                  >First in Line</a
+                >
+                <p>
+                  A reflective lifestyle piece rooted in childhood, closeness,
+                  and the order we learn to take up space in.
+                </p>
+              </div>
+            </article>
+
+            <article class="mini-feature">
+              <img
+                class="mini-image"
+                src="assets/bad-at-boredom-cover.png"
+                alt="Coastal path photograph for Bad at Boredom."
+              />
+              <div>
+                <p class="card-label">Lifestyle</p>
+                <a
+                  class="mini-title"
+                  href="https://www.hopelesslyellowtulane.com/recently/badatboredom"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Bad at Boredom</a
+                >
+                <p>
+                  A lifestyle piece about motion, restlessness, and the uneasy
+                  art of learning how to be still.
+                </p>
+              </div>
+            </article>
+
+            <article class="mini-feature">
+              <img
+                class="mini-image"
+                src="assets/to-be-loved-is-to-be-changed-cover.png"
+                alt="Boat sunset photograph for To be Loved is to be Changed."
+              />
+              <div>
+                <p class="card-label">Lifestyle</p>
+                <a
+                  class="mini-title"
+                  href="https://www.hopelesslyellowtulane.com/recently/tobelovedistobechanged"
+                  target="_blank"
+                  rel="noreferrer"
+                  >To be Loved is to be Changed</a
+                >
+                <p>
+                  A piece about friendship, closeness, and the way love quietly
+                  alters who we become.
+                </p>
+              </div>
+            </article>
           </div>
         </section>
 
