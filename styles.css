@@ -248,6 +248,11 @@ blockquote {
   padding: 1.5rem 0 3rem;
 }
 
+.archive {
+  display: grid;
+  gap: 1.5rem;
+}
+
 .section-heading {
   margin-bottom: 1.4rem;
 }
@@ -261,10 +266,19 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  padding: 1rem 0 2rem;
-  border-top: 1px solid var(--line);
+  padding: 0.9rem 0 1.3rem;
   border-bottom: 1px solid var(--line);
-  margin-bottom: 2rem;
+}
+
+.archive-intro {
+  max-width: 42rem;
+}
+
+.archive-intro p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.75;
 }
 
 .archive-jump a {
@@ -284,7 +298,8 @@ blockquote {
 }
 
 .archive-section {
-  padding: 1rem 0 2.5rem;
+  padding: 1.2rem 0 2.2rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .archive-heading {
@@ -302,7 +317,7 @@ blockquote {
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 1.15rem;
 }
 
 .archive-grid-featured {
@@ -317,7 +332,7 @@ blockquote {
 
 .archive-card-featured {
   grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1fr);
-  gap: 1.2rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -342,6 +357,13 @@ blockquote {
 
 .archive-image-large {
   aspect-ratio: 16 / 10;
+}
+
+.archive-card p,
+.archive-card-featured p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .section-image {
